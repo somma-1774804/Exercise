@@ -1,5 +1,5 @@
 # Algoritmo che dato l’intero n, stampa tutte le sequenze lunghe n formate da interi nell’insieme {1, 2, 3, 4}
-# con la proprietà che nella sequenza numeri adiacenti distano almeno 2.
+# con la proprietà che nella sequenza numeri adiacenti distano almeno 2. L’algoritmo deve avere complessità O(nS(n))
 
 def seq_ad_2(n):
     set= {1,2,3,4}
