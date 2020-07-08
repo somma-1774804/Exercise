@@ -7,7 +7,7 @@ def seq_ad_2(n):
        seq_ad_2bis(n,[x],set,1)
 
 # Per ogni elemento dell'insieme {1,2,3,4} chiamiamo la funzione seq_ad_2bis alla quale passo la lunghezza
-# della sequanza che vogliamo generare, la sequenza con il primo elemento estratto dall'insieme e , l'insieme stesso
+# della sequanza che vogliamo generare, la sequenza con il primo elemento estratto dall'insieme, l'insieme stesso
 # e un indice per controllare la lunghezza della sequenza.
 # L'algoritmo per ogni elemento dell'insieme controlla se rispetta la condizione e se la rispetta
 # l'elemento viene aggiunto alla sequenza fino a raggiungere la sequenza imposta (n).
