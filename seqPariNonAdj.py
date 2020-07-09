@@ -10,8 +10,6 @@ def pariNotadj(n):
     T[0]=0
     T[1]=10
 
-    print('prova:', T[1]/2)
-
     for i in range(2,n+1):
         T[i]= ceil(T[i-1]/2)*9+(ceil(T[i-1]/2)*5)+1
     return T[n]+4
